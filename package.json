@@ -8,8 +8,8 @@
     "watch": "webpack --progress --watch"
   },
   "repository": {
-    "type":"git",
-    "url":"git + https://github.com/Aswinth24/Restaurant-Page.git"
+    "type": "git",
+    "url": "git + https://github.com/Aswinth24/Restaurant-Page.git"
   },
   "keywords": [],
   "author": "Aswinth24",
@@ -19,6 +19,8 @@
     "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
-    "sass": "^1.63.4"
+    "css-loader": "^6.8.1",
+    "sass": "^1.63.4",
+    "style-loader": "^3.3.3"
   }
 }
