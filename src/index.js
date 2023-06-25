@@ -1,4 +1,4 @@
 import initialize from './mainCont';
-import './style.css'
+import './style.css';
 initialize();
 
