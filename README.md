@@ -26,6 +26,8 @@ The aim of the project was to make a functional multi-page Restaurant website us
 
 ## Deploy Project
 
+  **Follow the instruction for [deploying a subfolder to GitHub Pages.](https://gist.github.com/cobyism/4730490)**<br>
+  
   To prevent having to copy and paste the same lengthy git command  each time, instead use this command in your terminal.<br>
   ` npm run startPage `
   
