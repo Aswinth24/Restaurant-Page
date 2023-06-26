@@ -12,7 +12,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     width:100%;
     min-height:100vh;
-    background-image: url('/dist/img/Biriyani.jpg');
+    background-image: url('img/Biriyani.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
