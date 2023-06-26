@@ -77,7 +77,8 @@ body{
     width:100%;
 }
 .main{
-    padding:25px 0;
+    width: 100%;
+    padding:25px 10px;
     color:rgba(255, 255, 255);
     display: flex;
     justify-content:space-around;
@@ -164,10 +165,10 @@ body{
      color:rgb(228, 228, 228);
      background-color:rgba(23, 24, 26, 0.75);
      padding:20px;
-     height:50%;
-     width:50%;
+    width:100%;
      display: flex;
      flex-direction: column;
+     justify-content: center;
      align-items:center;
      gap:20px;
   
@@ -202,4 +203,42 @@ footer{
 }
 footer>a{
     margin:10px;
+}
+
+@media screen and (max-width:900px) 
+{
+    body{
+        gap:2.5rem;
+    }
+    .main{    
+        flex-direction: column-reverse;
+        gap:20px;
+    }
+    .container{
+        width:35rem;
+        height:17rem;
+    }
+    .content>h1{
+        font-size: 2rem;
+    }
+    .content>h4{
+        font-size: 1rem;
+    }
+    .item{
+      width:600px;
+      height: 250px;
+    }
+    .img>img{
+        border-radius: 10px;
+        width:280px;
+        height: 230px;
+    }
+    .item>.content>h1{
+        font-size: 1.8rem;;
+    }
+    .item>.content>p
+   {
+    font-size:12px;
+   }
+    
 }
