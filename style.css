@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+*,*::after,*::before{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    width:100%;
+    min-height:100vh;
+    background-image: url('img/Biriyani.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    
+}
+
+.page-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    min-height: 60vh;
+}
+.header{
+    color:rgb(244, 240, 240);
+    background-color: rgba(23, 24, 26, 0.75);
+    width:100%;
+    height:7rem;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:0.9rem;
+    position:sticky;
+}
+.store-name>h1{
+    font-weight: 500;
+    font-size:2.3rem;
+    transition: right 1s linear,transform 1s;
+    transform: scale(1.2);
+}
+.nav>.nav-bar{
+    display: flex;
+    gap:3rem;
+}
+.nav-bar>.nav-con{
+    font-size:1.15rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.nav-con:hover{
+    color:rgb(208, 60, 64);
+}
+.nav-con::after{
+    background-color: rgb(208, 94, 94);
+    content: '';
+    position: absolute; 
+    left:0;
+    width: 0;
+    height:3px;
+    bottom: -10px;
+    transition:width 0.4s linear;
+}
+.nav-con:hover::after{
+    width:100%;
+}
+.main{
+    width: 100%;
+    padding:25px 10px;
+    color:rgba(255, 255, 255);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(23, 24, 26, 0.75);  
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap:15px;
+    padding:0 15px;
+}
+.content>h1{
+    font-size: 2.2rem;
+}
+.content>h4{
+    font-size: 1.2rem;
+}
+.container{
+    width: 40rem;
+    height:20rem;
+    border-radius: 5px;
+    overflow: hidden; 
+}
+.container>img{
+    width:100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+    filter:blur(0.045rem);
+     
+}
+.menu-page{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(228, 228, 228);
+    gap:15px;
+   
+}
+.item{
+    width:800px;
+    height: 300px;
+    display: flex;
+    padding:20px;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+    background-color: rgba(23, 24, 26, 0.75);
+    cursor: pointer;
+    
+}
+.img>img{
+    border-radius: 10px;
+    width:380px;
+    height: 270px;
+}
+.item>.content>p
+{
+    font-size:15px;
+}
+.content{
+  height: 100%;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align:start;
+  justify-content:space-evenly;
+  
+}
+.price{
+    border:0;
+    color:rgb(208, 60, 64);
+    background: transparent;
+    font-size: 23px;
+    font-weight: 500;
+    width:150px;
+    height:60px;
+}
+.contact-page{
+     color:rgb(228, 228, 228);
+     background-color:rgba(23, 24, 26, 0.75);
+     padding:20px;
+    width:100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+     gap:20px;
+  
+    }
+.contact-page p
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.timing{
+    display: flex;
+    gap:2rem;
+}
+.timing>div{
+    line-height: 1.8rem;
+    background-color: rgba(120, 120, 120, 0.4);
+    border-radius: 10px;
+    padding:10px;
+}
+footer{
+    width: 100%;
+     height: 50px;
+     color:rgb(228, 228, 228);
+     background-color:rgba(23, 24, 26, 0.75);
+     position: fixed;
+     bottom: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      
+}
+footer>a{
+    margin:10px;
+}
+
+@media screen and (max-width:900px) 
+{
+    body{
+        gap:2.5rem;
+    }
+    .main{    
+        width:100%;
+        flex-direction: column-reverse;
+        gap:20px;
+    }
+    .container{
+        width:35rem;
+        height:17rem;
+    }
+    .content>h1{
+        font-size: 2rem;
+    }
+    .content>h4{
+        font-size: 1rem;
+    }
+    .item{
+      width:600px;
+      height: 250px;
+    }
+    .img>img{
+        border-radius: 10px;
+        width:280px;
+        height: 230px;
+    }
+    .item>.content>h1{
+        font-size: 1.8rem;;
+    }
+    .item>.content>p
+   {
+    font-size:12px;
+   }
+    
+}
