@@ -4,9 +4,9 @@
   
 ![homepage](https://github.com/Aswinth24/Restaurant-Page/assets/111903275/01b6880e-9c3c-4439-88f4-b0883c45c671)&nbsp;
 
-![homepage3](https://github.com/Aswinth24/Restaurant-Page/assets/111903275/b0d98e97-7591-4ee7-902c-a8d8f56fbba2)
+<img src="https://github.com/Aswinth24/Restaurant-Page/assets/111903275/b0d98e97-7591-4ee7-902c-a8d8f56fbba2" width=250px height=540px>
 </div>
-
+<br>
 
 - **This project was completed for The Odin Project Javascript Restaurant Page Assignment. 
 The aim of the project was to make a functional multi-page Restaurant website using WebPack.**
