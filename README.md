@@ -1,5 +1,8 @@
 # Restaurant-Page
 
+
+![homepage](https://github.com/Aswinth24/Restaurant-Page/assets/111903275/01b6880e-9c3c-4439-88f4-b0883c45c671)
+
 **This project was completed for The Odin Project Javascript Restaurant Page Assignment. 
 The aim of the project was to make a functional multi-page Restaurant website using WebPack.**\
 
