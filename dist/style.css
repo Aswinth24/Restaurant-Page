@@ -273,7 +273,21 @@ footer>a{
 
     }
 }
-@media screen and (max-width:300px) 
+@media screen and (max-width:450px) 
+{
+    .container{
+        width:19rem;
+        height:10rem;
+    }
+    .main>.content>h1{
+        font-size: 1rem;
+    }
+    .main>.content>h4{
+        font-size: 0.8rem;
+    }
+    
+}
+@media screen and (max-width:320px) 
 {
     .header>div>h1{
         font-size: 1.2rem;
@@ -287,16 +301,12 @@ footer>a{
     .main>.content>h4{
         font-size: 0.5rem;
     }
-    .item{  
-        flex-direction: column;
-         width:100%;
-         height:30rem;
-       }
+   
     .img>img
     {
-           border-radius: 10px;
-           width:250px;
-           height: 170px;
+        border-radius: 10px;
+        width:250px;
+        height: 170px;
     }
     .container{
         width:15rem;
