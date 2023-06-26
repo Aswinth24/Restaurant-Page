@@ -17,7 +17,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
-
     display: flex;
     flex-direction: column;
     gap:4rem;
@@ -211,6 +210,7 @@ footer>a{
         gap:2.5rem;
     }
     .main{    
+        width:100%;
         flex-direction: column-reverse;
         gap:20px;
     }
