@@ -3,6 +3,8 @@ import loadHome from './home';
 import loadMenu from './menu';
 import loadContacts from './contact';
 
+
+
 function initialize()
 {
     loadHeader();
@@ -16,23 +18,50 @@ function changeTabs()
     const home=document.querySelector('#home');
     const menu=document.querySelector('#menu');
     const contact=document.querySelector('#contact');
-
     home.addEventListener('click',()=>{
-       clearEverything();
-       loadHome();
+        
+        clearEverything();
+        loadHome();
+        home.classList.add('change-color');
+        if(menu.classList.contains('change-color'))
+        {
+            menu.classList.remove('change-color');
+        }
+        else if(contact.classList.contains('change-color')){
+            contact.classList.remove('change-color');
+        }
     });
 
     menu.addEventListener('click',()=>{
+        
         clearEverything();
         loadMenu();
+        menu.classList.add('change-color');
+        if(home.classList.contains('change-color'))
+        {
+              home.classList.remove('change-color');
+        }
+        else if(contact.classList.contains('change-color'))
+        {
+              contact.classList.remove('change-color');
+        }
     })
     contact.addEventListener('click',()=>{
-            clearEverything();
+          
+            clearEverything();  
             loadContacts();
-    })
-
-    
+            contact.classList.add('change-color');
+            if(home.classList.contains('change-color'))
+            {
+                home.classList.remove('change-color');
+            }
+            else if(menu.classList.contains('change-color')){
+                  menu.classList.remove('change-color');
+            }
+    })    
 }
+
+
 function createpageContent()
 {
     const mainCont=document.querySelector('body');

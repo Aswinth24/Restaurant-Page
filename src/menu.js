@@ -77,7 +77,7 @@ function loadMenu()
           menuPage.appendChild(rightBox(createItems(arr[i].name,arr[i].content,arr[i].img,arr[i].price)));
         }
     }
-    console.log(maincont);
+    //console.log(maincont);
     if(maincont!=null)
        maincont.appendChild(menuPage)
 
