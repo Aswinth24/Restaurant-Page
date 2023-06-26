@@ -43,6 +43,10 @@ body{
     gap:0.9rem;
     position:sticky;
 }
+.nav-con.change-color{
+    color:rgb(208, 60, 64);
+}
+
 .store-name>h1{
     font-weight: 500;
     font-size:2.3rem;
@@ -210,7 +214,6 @@ footer>a{
         gap:2.5rem;
     }
     .main{    
-        width:100%;
         flex-direction: column-reverse;
         gap:20px;
     }
@@ -240,5 +243,92 @@ footer>a{
    {
     font-size:12px;
    }
+}
+@media screen and (max-width:39rem) 
+{
     
+    .main>.content>h1{
+        font-size: 1.3rem;
+    }
+    .main>.content>h4{
+        font-size: 0.8rem;
+    }
+    .container{
+        width:28rem;
+        height:15rem;
+    }
+  
+    .item{  
+     flex-direction: column;
+      width:100%;
+      height:30rem;
+    }
+    .img>img{
+        border-radius: 10px;
+        width:280px;
+        height: 230px;
+    }
+    .contact-page>.timing p{
+        font-size: 0.9rem;
+
+    }
+}
+@media screen and (max-width:300px) 
+{
+    .header>div>h1{
+        font-size: 1.2rem;
+    }
+    .header>.nav>.nav-bar>li{
+        font-size: 0.9rem;
+    }
+    .main>.content>h1{
+        font-size: 1rem;
+    }
+    .main>.content>h4{
+        font-size: 0.5rem;
+    }
+    .item{  
+        flex-direction: column;
+         width:100%;
+         height:30rem;
+       }
+    .img>img
+    {
+           border-radius: 10px;
+           width:250px;
+           height: 170px;
+    }
+    .container{
+        width:15rem;
+        height:10rem;
+    }
+    .contact-page{
+        gap:10px;
+    }
+    .contact-page h1{
+        font-size: 1.4rem;
+    }
+    .contact-page>div p{
+        font-size:0.75rem ;
+    }
+    .contact-page>.timing{
+        gap:10px;
+    }
+    .contact-page>.timing div{
+        width:8rem;
+        line-height: 1.3;
+        
+    }
+    .contact-page>.timing p{
+        font-size: 0.6rem;
+        padding-bottom: 5px;
+
+    }
+    .item>.content>h1{
+        font-size: 1.5rem;;
+    }
+    .item>.content>p
+   {
+    font-size:12px;
+   }
 }
